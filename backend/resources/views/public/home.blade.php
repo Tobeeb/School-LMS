@@ -29,7 +29,7 @@
                     <x-public.stat-card label="Years of Excellence" value="29" icon="school" description="Established 1995" />
                 </div>
                 <div class="animate-on-scroll" style="transition-delay: 0.3s;">
-                    <x-public.stat-card label="Exam Pass Rate" value="100%" icon="award" description="JSS 3 Exit Exams 2026" />
+                  <x-public.stat-card label="Learning Levels" value="4" icon="school" description="Nursery to Senior Secondary" />
                 </div>
             </div>
         </div>
@@ -103,61 +103,55 @@
         <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
             <x-public.section-header
                 title="Academic Programmes"
-                subtitle="Our curriculum is designed to challenge, inspire, and prepare students for future success at every stage of their journey."
+                subtitle="A complete pathway from Nursery to Senior Secondary, following the Nigerian national curriculum."
                 badge="Our Curriculum"
             />
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="group bg-white dark:bg-dark-surface rounded-2xl border border-neutral-200 dark:border-dark-border shadow-premium overflow-hidden card-lift hover:shadow-premium-lg animate-on-scroll">
-                    <div class="aspect-video overflow-hidden relative">
-                        <img src="{{ asset('images/Jss1_img.webp') }}" alt="JSS 1 foundation year" class="w-full h-full object-cover zoom-target transition-transform duration-700 group-hover:scale-105" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('bg-linear-to-br','from-neutral-100','to-neutral-200','dark:from-neutral-800','dark:to-neutral-700')">
-                        <div class="absolute inset-0 bg-linear-to-t from-black/50 to-transparent"></div>
-                        <span class="absolute top-4 left-4 inline-flex items-center rounded-full bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm px-3 py-1 text-xs font-bold text-neutral-900 dark:text-white shadow-sm">Year 1</span>
-                    </div>
-                    <div class="p-7">
-                        <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-3">JSS 1 — Foundation</h3>
-                        <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-5">The foundation year builds strong fundamentals in Mathematics, English, Basic Science, and introductory subjects that spark curiosity.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Mathematics</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">English</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Basic Science</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Social Studies</span>
-                        </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="group bg-white dark:bg-dark-surface rounded-2xl border border-neutral-200 dark:border-dark-border shadow-premium p-7 card-lift hover:shadow-premium-lg animate-on-scroll">
+                    <span class="inline-flex items-center rounded-full bg-primary-100 dark:bg-primary-900/30 px-3 py-1 text-xs font-bold text-primary-700 dark:text-primary-300 mb-5">Nursery</span>
+                    <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-3">Nursery 1 and 2</h3>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-5">Early literacy, numeracy and social skills through structured, play-based learning.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">English Language</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Mathematics</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Phonics</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Yoruba</span>
                     </div>
                 </div>
 
-                <div class="group bg-white dark:bg-dark-surface rounded-2xl border border-neutral-200 dark:border-dark-border shadow-premium overflow-hidden card-lift hover:shadow-premium-lg animate-on-scroll" style="transition-delay: 0.1s;">
-                    <div class="aspect-video overflow-hidden relative">
-                        <img src="{{ asset('images/Jss2_img.webp') }}" alt="JSS 2 intermediate year" class="w-full h-full object-cover zoom-target transition-transform duration-700 group-hover:scale-105" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('bg-linear-to-br','from-neutral-100','to-neutral-200','dark:from-neutral-800','dark:to-neutral-700')">
-                        <div class="absolute inset-0 bg-linear-to-t from-black/50 to-transparent"></div>
-                        <span class="absolute top-4 left-4 inline-flex items-center rounded-full bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm px-3 py-1 text-xs font-bold text-neutral-900 dark:text-white shadow-sm">Year 2</span>
-                    </div>
-                    <div class="p-7">
-                        <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-3">JSS 2 — Intermediate</h3>
-                        <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-5">The intermediate year deepens subject knowledge and introduces more complex concepts across all disciplines and electives.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Mathematics</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">English</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Science</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Tech & Arts</span>
-                        </div>
+                <div class="group bg-white dark:bg-dark-surface rounded-2xl border border-neutral-200 dark:border-dark-border shadow-premium p-7 card-lift hover:shadow-premium-lg animate-on-scroll">
+                    <span class="inline-flex items-center rounded-full bg-accent-100 dark:bg-accent-900/30 px-3 py-1 text-xs font-bold text-accent-700 dark:text-accent-300 mb-5">Primary</span>
+                    <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-3">Primary 1 to 6</h3>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-5">A strong grounding in literacy, numeracy and science, with character development and practical skills.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">English Language</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Mathematics</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Basic Science</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Civic Education</span>
                     </div>
                 </div>
 
-                <div class="group bg-white dark:bg-dark-surface rounded-2xl border border-neutral-200 dark:border-dark-border shadow-premium overflow-hidden card-lift hover:shadow-premium-lg animate-on-scroll" style="transition-delay: 0.2s;">
-                    <div class="aspect-video overflow-hidden relative">
-                        <img src="{{ asset('images/Jss3_img.webp') }}" alt="JSS 3 examination year" class="w-full h-full object-cover zoom-target transition-transform duration-700 group-hover:scale-105" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('bg-linear-to-br','from-neutral-100','to-neutral-200','dark:from-neutral-800','dark:to-neutral-700')">
-                        <div class="absolute inset-0 bg-linear-to-t from-black/50 to-transparent"></div>
-                        <span class="absolute top-4 left-4 inline-flex items-center rounded-full bg-white/90 dark:bg-dark-surface/90 backdrop-blur-sm px-3 py-1 text-xs font-bold text-neutral-900 dark:text-white shadow-sm">Year 3</span>
+                <div class="group bg-white dark:bg-dark-surface rounded-2xl border border-neutral-200 dark:border-dark-border shadow-premium p-7 card-lift hover:shadow-premium-lg animate-on-scroll">
+                    <span class="inline-flex items-center rounded-full bg-success-100 dark:bg-success-900/30 px-3 py-1 text-xs font-bold text-success-700 dark:text-success-300 mb-5">Junior Secondary</span>
+                    <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-3">JSS 1 to 3</h3>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-5">A broad curriculum that prepares students for the Basic Education Certificate Examination (BECE) at the end of JSS 3.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">English Language</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Mathematics</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Basic Technology</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Business Studies</span>
                     </div>
-                    <div class="p-7">
-                        <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-3">JSS 3 — Examination</h3>
-                        <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-5">The final JSS year focuses on examination preparation, advanced topics, and a smooth transition to senior secondary education.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Exam Prep</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Advanced Topics</span>
-                            <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Career Guidance</span>
-                        </div>
+                </div>
+
+                <div class="group bg-white dark:bg-dark-surface rounded-2xl border border-neutral-200 dark:border-dark-border shadow-premium p-7 card-lift hover:shadow-premium-lg animate-on-scroll">
+                    <span class="inline-flex items-center rounded-full bg-warning-100 dark:bg-warning-900/30 px-3 py-1 text-xs font-bold text-warning-700 dark:text-warning-300 mb-5">Senior Secondary</span>
+                    <h3 class="text-xl font-bold text-neutral-900 dark:text-white mb-3">SSS 1 to 3</h3>
+                    <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed mb-5">Students choose a Science, Arts or Commercial stream, preparing for the WAEC and NECO examinations.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Science</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Arts</span>
+                        <span class="inline-flex items-center rounded-full bg-neutral-100 dark:bg-neutral-800 px-3 py-1 text-xs font-semibold text-neutral-700 dark:text-neutral-200">Commercial</span>
                     </div>
                 </div>
             </div>
@@ -170,7 +164,6 @@
             </div>
         </div>
     </section>
-
     {{-- ============================================ --}}
     {{-- 6. CAMPUS FACILITIES                         --}}
     {{-- ============================================ --}}

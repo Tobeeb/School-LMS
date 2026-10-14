@@ -14,71 +14,31 @@
             <x-public.section-header title="Our Curriculum" subtitle="We follow the national curriculum with enhanced learning experiences across all subjects." align="center" />
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm overflow-hidden">
-                    <div class="p-6 border-b border-neutral-200 dark:border-dark-border">
-                        <div class="flex items-center gap-3">
-                            <div class="h-10 w-10 rounded-lg bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 flex items-center justify-center">
-                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
-                            </div>
-                            <div>
-                                <h3 class="text-base font-semibold text-neutral-900 dark:text-white">Languages</h3>
-                                <p class="text-xs text-neutral-500 dark:text-neutral-400">English, Literature</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed">Developing strong communication skills through reading, writing, and critical analysis of texts.</p>
-                    </div>
-                </div>
-                <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm overflow-hidden">
-                    <div class="p-6 border-b border-neutral-200 dark:border-dark-border">
-                        <div class="flex items-center gap-3">
-                            <div class="h-10 w-10 rounded-lg bg-accent-100 dark:bg-accent-900/30 text-accent-600 dark:text-accent-400 flex items-center justify-center">
-                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m-6 4h6m-6 4h4M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
-                            </div>
-                            <div>
-                                <h3 class="text-base font-semibold text-neutral-900 dark:text-white">Mathematics</h3>
-                                <p class="text-xs text-neutral-500 dark:text-neutral-400">Algebra, Geometry, Statistics</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed">Building problem-solving skills and numerical literacy through structured mathematical concepts.</p>
-                    </div>
-                </div>
-                <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm overflow-hidden">
-                    <div class="p-6 border-b border-neutral-200 dark:border-dark-border">
-                        <div class="flex items-center gap-3">
-                            <div class="h-10 w-10 rounded-lg bg-success-100 dark:bg-success-900/30 text-success-600 dark:text-success-400 flex items-center justify-center">
-                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 13.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 13.48a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
-                            </div>
-                            <div>
-                                <h3 class="text-base font-semibold text-neutral-900 dark:text-white">Science</h3>
-                                <p class="text-xs text-neutral-500 dark:text-neutral-400">Physics, Chemistry, Biology</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed">Exploring the natural world through hands-on experiments, observations, and scientific inquiry.</p>
-                    </div>
-                </div>
-                <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm overflow-hidden">
-                    <div class="p-6 border-b border-neutral-200 dark:border-dark-border">
-                        <div class="flex items-center gap-3">
-                            <div class="h-10 w-10 rounded-lg bg-warning-100 dark:bg-warning-900/30 text-warning-600 dark:text-warning-400 flex items-center justify-center">
-                                <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                            </div>
-                            <div>
-                                <h3 class="text-base font-semibold text-neutral-900 dark:text-white">Social Studies</h3>
-                                <p class="text-xs text-neutral-500 dark:text-neutral-400">History, Geography, Civics</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed">Understanding society, culture, and the world through historical and geographical perspectives.</p>
-                    </div>
-                </div>
-            </div>
+    <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm p-6">
+        <span class="inline-flex items-center rounded-full bg-primary-100 dark:bg-primary-900/30 px-3 py-1 text-xs font-semibold text-primary-700 dark:text-primary-300 mb-4">Nursery</span>
+        <h3 class="text-lg font-semibold text-neutral-900 dark:text-white mb-2">Early Learning Foundations</h3>
+        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed mb-4">Building early literacy, numeracy and social skills through structured, play-based learning.</p>
+        <p class="text-sm text-neutral-700 dark:text-neutral-300"><span class="font-medium">Subjects:</span> English Language, Mathematics, Phonics, Handwriting, Verbal Reasoning, Quantitative Reasoning, Basic Science, Social Studies, Cultural and Creative Arts, Physical and Health Education, Religious Studies, Yoruba.</p>
+    </div>
+    <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm p-6">
+        <span class="inline-flex items-center rounded-full bg-accent-100 dark:bg-accent-900/30 px-3 py-1 text-xs font-semibold text-accent-700 dark:text-accent-300 mb-4">Primary</span>
+        <h3 class="text-lg font-semibold text-neutral-900 dark:text-white mb-2">Primary School (Primary 1 to 6)</h3>
+        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed mb-4">A strong foundation in literacy, numeracy and science, with character development and practical skills.</p>
+        <p class="text-sm text-neutral-700 dark:text-neutral-300"><span class="font-medium">Subjects:</span> English Language, Mathematics, Basic Science, Social Studies, Civic Education, Religious Studies, Computer Studies, Cultural and Creative Arts, Physical and Health Education, Pre-Vocational Studies, Home Economics, Agricultural Science, Yoruba, French or Arabic.</p>
+    </div>
+    <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm p-6">
+        <span class="inline-flex items-center rounded-full bg-success-100 dark:bg-success-900/30 px-3 py-1 text-xs font-semibold text-success-700 dark:text-success-300 mb-4">Junior Secondary</span>
+        <h3 class="text-lg font-semibold text-neutral-900 dark:text-white mb-2">Junior Secondary (JSS 1 to 3)</h3>
+        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed mb-4">A broad curriculum that introduces students to core and practical subjects, preparing them for the Basic Education Certificate Examination (BECE) at the end of JSS 3.</p>
+        <p class="text-sm text-neutral-700 dark:text-neutral-300"><span class="font-medium">Subjects:</span> English Language, Mathematics, Basic Science, Basic Technology, Social Studies, Civic Education, Religious Studies, Computer Studies, Agricultural Science, Home Economics, Business Studies, Pre-Vocational Studies, Cultural and Creative Arts, Physical and Health Education, Yoruba, French or Arabic.</p>
+    </div>
+    <div class="bg-white dark:bg-dark-surface rounded-xl border border-neutral-200 dark:border-dark-border shadow-sm p-6">
+        <span class="inline-flex items-center rounded-full bg-warning-100 dark:bg-warning-900/30 px-3 py-1 text-xs font-semibold text-warning-700 dark:text-warning-300 mb-4">Senior Secondary</span>
+        <h3 class="text-lg font-semibold text-neutral-900 dark:text-white mb-2">Senior Secondary (SSS 1 to 3)</h3>
+        <p class="text-sm text-neutral-500 dark:text-neutral-400 leading-relaxed mb-4">Students choose a Science, Arts or Commercial stream, preparing for the West African Senior School Certificate Examination (WAEC) and the National Examinations Council (NECO) examinations.</p>
+        <p class="text-sm text-neutral-700 dark:text-neutral-300"><span class="font-medium">Core subjects:</span> English Language, Mathematics, Civic Education, Computer Studies, Religious Studies, Agricultural Science.<br><span class="font-medium">Science:</span> Biology, Chemistry, Physics, Further Mathematics.<br><span class="font-medium">Arts:</span> Literature in English, Government, Geography, Economics.<br><span class="font-medium">Commercial:</span> Financial Accounting, Commerce, Business Studies, Economics.</p>
+    </div>
+</div>
         </div>
     </section>
 
